@@ -1,0 +1,95 @@
+commit caf060de9613ffc59a0fff04a01dced79c24dd0c
+Author: Jatynjala <johannestynjala@gmail.com>
+Date:   Tue Mar 23 10:30:19 2021 +0200
+
+    file1 poistettu ja file2 uudelleennimetty
+
+ tiedostoja/file2             | 0
+ tiedostoja/{file1 => file22} | 0
+ 2 files changed, 0 insertions(+), 0 deletions(-)
+
+commit b2cbbb55b6bbdb487073493bf6337c03e2fc94c3
+Author: Jatynjala <johannestynjala@gmail.com>
+Date:   Tue Mar 23 10:15:35 2021 +0200
+
+    tiedostoja lisätty
+
+ tiedostoja/file1 | 0
+ tiedostoja/file2 | 0
+ tiedostoja/file3 | 0
+ 3 files changed, 0 insertions(+), 0 deletions(-)
+
+commit 3eef092f15f3b99f9e99cd2254b1fe7a28d9d23c
+Author: Jatynjala <johannestynjala@gmail.com>
+Date:   Tue Mar 23 10:08:29 2021 +0200
+
+    tiedosto.txt uudelleennimetty ja toinen.txt poistettu
+
+ tiedosto.txt => eka.txt | 0
+ toinen.txt              | 2 --
+ 2 files changed, 2 deletions(-)
+
+commit 89e14409054f46303133c9e5c41c70bbaffadf00
+Author: Jatynjala <johannestynjala@gmail.com>
+Date:   Tue Mar 23 10:02:58 2021 +0200
+
+    tiedosto.txt muokattu
+
+ tiedosto.txt | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit 6c34f4de07984672575e0d01f6ced0869d55a197
+Author: Jatynjala <johannestynjala@gmail.com>
+Date:   Tue Mar 23 10:00:56 2021 +0200
+
+    paljon tekstiä lisätty tiedosto.txt:hen
+
+ tiedosto.txt | 2 ++
+ 1 file changed, 2 insertions(+)
+
+commit c980e04ff5926032fbd3a75b7111c331dba627b6
+Author: Jatynjala <johannestynjala@gmail.com>
+Date:   Tue Mar 23 09:50:12 2021 +0200
+
+    hakemisto stuff lisätty
+
+ stuff/jokin.txt | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
+commit 12f27d2d007fb8e6a7a00681ea0d28a5d118fef8
+Author: Jatynjala <johannestynjala@gmail.com>
+Date:   Tue Mar 23 09:47:56 2021 +0200
+
+    toinen.txt ja kolmas.txt muokattu
+
+ kolmas.txt | 1 +
+ toinen.txt | 2 ++
+ 2 files changed, 3 insertions(+)
+
+commit 07d8bd630d586142d9853d89c0108deb8c5fa7c6
+Author: Jatynjala <johannestynjala@gmail.com>
+Date:   Tue Mar 23 09:39:58 2021 +0200
+
+    kolmas.txt lisätty
+
+ kolmas.txt | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
+commit f8cd5333d124d038c91a8fbb327bbfba4ef1e232
+Author: Jatynjala <johannestynjala@gmail.com>
+Date:   Tue Mar 23 09:37:54 2021 +0200
+
+    muutos ja lisäys
+
+ tiedosto.txt | 3 +++
+ toinen.txt   | 0
+ 2 files changed, 3 insertions(+)
+
+commit 19d6947b1cca88ef957579ee5891273199a2023e
+Author: Jatynjala <johannestynjala@gmail.com>
+Date:   Tue Mar 23 09:30:38 2021 +0200
+
+    tiedosto.txt luotu
+
+ tiedosto.txt | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
