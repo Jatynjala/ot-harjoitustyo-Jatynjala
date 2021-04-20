@@ -2,4 +2,4 @@
 
 ## Rakenne
 
-![Kuva kaaviosta](./kuvat/kaavio.png)
+![Kuva kaaviosta](./Kuvat/kaavio.png)
