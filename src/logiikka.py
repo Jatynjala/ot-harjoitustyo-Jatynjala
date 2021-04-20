@@ -9,7 +9,6 @@ class Sovelluslogiikka:
             tulos_lista.append(kysymys)
             mahdolliset_kysymykset.remove(kysymys)
         return tulos_lista
-    
     def aseta_voitto(self, vastaus: str, tiedot: tuple):
         if vastaus == "1":
             return tiedot[3]
@@ -17,7 +16,6 @@ class Sovelluslogiikka:
             return tiedot[7]
         elif vastaus == "3":
             return tiedot[11]
-    
     def aseta_tappio(self, vastaus: str, tiedot: tuple):
         if vastaus == "1":
             return tiedot[4]
@@ -25,7 +23,6 @@ class Sovelluslogiikka:
             return tiedot[8]
         elif vastaus == "3":
             return tiedot[12]
-    
     def aseta_todennakoisyys(self, vastaus: str, tiedot: tuple):
         if vastaus == "1":
             return tiedot[5]
@@ -33,7 +30,6 @@ class Sovelluslogiikka:
             return tiedot[9]
         elif vastaus == "3":
             return tiedot[13]
-    
     def arvo_tapahtuma(self, voitto: str, tappio: str, todennakoisyys: int):
         sattuma = randint(1, 100)
         if sattuma > todennakoisyys:

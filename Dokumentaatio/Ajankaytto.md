@@ -3,4 +3,5 @@ Päivä | aika | Mitä tehty?
 ------|------|------------
 13.4 | 3h | Sovelluksen alustava toteutus
 13.4 | 1,75h | Dokumentaation päivittäminen
-yht. | 4,75h |
+20.4 | 1,75h | Pylintin käyttöönotto ja sovelluksen laajennus
+yht. | 6,30h |

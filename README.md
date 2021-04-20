@@ -8,3 +8,4 @@ Soveluksen käynnistys tapahtuu komennolla 'poetry run invoke start', testaus ko
 ### Dokumentaatio
 * [Ajankäyttö](https://github.com/Jatynjala/ot-harjoitustyo-Jatynjala/blob/main/Dokumentaatio/Ajankaytto.md)
 * [Vaatimusmäärittely](https://github.com/Jatynjala/ot-harjoitustyo-Jatynjala/blob/main/Dokumentaatio/Vaatimusmaarittely.md)
+* [Arkkitehtuuri](https://github.com/Jatynjala/ot-harjoitustyo-Jatynjala/blob/main/Dokumentaatio/arkkitehtuuri.md)
