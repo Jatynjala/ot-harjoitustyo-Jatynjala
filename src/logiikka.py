@@ -12,23 +12,23 @@ class Sovelluslogiikka:
     def aseta_voitto(self, vastaus: str, tiedot: tuple):
         if vastaus == "1":
             return tiedot[3]
-        elif vastaus == "2":
+        if vastaus == "2":
             return tiedot[7]
-        elif vastaus == "3":
+        if vastaus == "3":
             return tiedot[11]
     def aseta_tappio(self, vastaus: str, tiedot: tuple):
         if vastaus == "1":
             return tiedot[4]
-        elif vastaus == "2":
+        if vastaus == "2":
             return tiedot[8]
-        elif vastaus == "3":
+        if vastaus == "3":
             return tiedot[12]
     def aseta_todennakoisyys(self, vastaus: str, tiedot: tuple):
         if vastaus == "1":
             return tiedot[5]
-        elif vastaus == "2":
+        if vastaus == "2":
             return tiedot[9]
-        elif vastaus == "3":
+        if vastaus == "3":
             return tiedot[13]
     def arvo_tapahtuma(self, voitto: str, tappio: str, todennakoisyys: int):
         sattuma = randint(1, 100)

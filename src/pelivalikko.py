@@ -1,10 +1,10 @@
-from Tietokannan_kasittely import Tietokanta_kasittelija
-from pelaaja_rajapinta import Pelaaja_rajapinta
+from pelaajarajapinta import Pelaajarajapinta
+from tietokannankasittely import Tietokantakasittelija
 
 class Pelivalikko:
     def __init__(self):
-        self.tietokanta = Tietokanta_kasittelija()
-        self.pelaamis_rajapinta = Pelaaja_rajapinta()
+        self.tietokanta = Tietokantakasittelija()
+        self.pelaamis_rajapinta = Pelaajarajapinta()
     def ohjeistus(self):
         print("Syötä haluamasi kysymysten määrä kokonaislukuna tai keskeytä syöttämällä cancel.")
     def startti(self):

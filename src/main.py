@@ -1,14 +1,19 @@
 from pelivalikko import Pelivalikko
-from Tietokannan_kasittely import Tietokanta_kasittelija
+from pelinjatkaminen import Pelinjatko
+from tietokannankasittely import Tietokantakasittelija
+from tiedostonkasittely import Tiedostokasittelija
 
 class Taistelusovellus:
     def __init__(self):
         self.pelivalikko = Pelivalikko()
-        self.tietokanta = Tietokanta_kasittelija()
+        self.tietokanta = Tietokantakasittelija()
+        self.tiedostokasittely = Tiedostokasittelija()
+        self.jatko = Pelinjatko()
     def ohje(self):
         print("Anna komento. 0 lopettaa sovelluksen.")
         print("1 aloittaa uuden pelin.")
         print("2 lisää uuden kysymyksen.")
+        print("3 lataa tallennetun pelin.")
     def kysymys_valmistelu(self):
         kys = input("Kysymys: ")
         vas1 = input("Vastaus 1: ")
@@ -33,7 +38,13 @@ class Taistelusovellus:
                 self.pelivalikko.startti()
             elif komento == "2":
                 self.kysymys_valmistelu()
-            elif komento not in ["0", "1", "2"]:
+            elif komento == "3":
+                lista = self.tiedostokasittely.lataa_peli()
+                if len(lista) < 1:
+                    print("Ei tallennettua peliä.")
+                else:
+                    self.jatko.jatka(lista)
+            elif komento not in ["0", "1", "2", "3"]:
                 print("Tuntematon komento.")
             else:
                 break
