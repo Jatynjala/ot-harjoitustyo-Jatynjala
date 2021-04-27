@@ -13,7 +13,7 @@ class Pelivalikko:
             print("Kysymyksiä ei ole tällä hetkellä tarjolla.")
         else:
             while True:
-                print("Kysymyksiä tarjolla "+maksimi)
+                print("Kysymyksiä tarjolla "+str(maksimi))
                 self.ohjeistus()
                 komento = input("Komento:")
                 if komento == "cancel":
