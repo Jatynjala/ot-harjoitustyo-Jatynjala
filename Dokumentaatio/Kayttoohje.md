@@ -9,7 +9,7 @@ Tämän jälkeen sovellus menee uuden pelin valmisteluun ja hakee tietokannasta 
 Jos aloitusvalikossa antaa komennon 3, tallennettu peli ladataan, ja sovellus siirtyy pelinäkymään.
 
 ## Pelinäkymä
-Pelinäkymässä käyttäjälle on luotu satunnainen lista kysymyksiä, jonka sovellus käy läpi kysymys kerrallaan. Jokaiseen kysymykseen on kolme vastausta, joista jokainen voi jollakin todennäköisyydellä onnistua tai epäonnistua.
+Pelinäkymässä käyttäjälle on luotu satunnainen lista kysymyksiä, jonka sovellus käy läpi kysymys kerrallaan. Jokaiseen kysymykseen on kolme vastausta, joista jokainen voi jollakin todennäköisyydellä onnistua tai epäonnistua. Lisäksi käyttäjän kuvitteeliset kahdeksan alaista suosittelevat kukin jotakin tai ei yhtäkään vaihtoehdoista. Käyttäjälle näytetään, kuinka moni kahdeksasta alaisesta suosittelee mitäkin vaihtoehtoa.
 
 Käyttäjä antaa jonkun syötteistä 'save', 'quit', 1, 2 tai 3. Syöte 'save' tallentaa pelin ja palaa takaisin kysymykseen, kun taas 'quit' keskeyttää pelin ja palaa aloitusvalikkoon. Syöttämällä 1, 2 tai 3 käyttäjä antaa vastaukseksi vastaavan vastauksen, minkä jälkeen sovellus arpoo vastaukseen liityvän todennäköisyyden perusteella, onnistuuko vastaus vai ei.
 
