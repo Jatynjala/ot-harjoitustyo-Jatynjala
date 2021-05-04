@@ -1,16 +1,29 @@
 import sqlite3
 
 class Tietokantakasittelija:
+    """
+    Muodostaa yhteyden tietokantaan ja suorittaa tietokantaan
+    liittyvät komennot.
+    """
     def __init__(self):
         self.database = sqlite3.connect("kysymykset.db")
         self.database.isolation_level = None
     def kysymysten_maara(self):
+        """
+        Hakee tietokannassa olevien kysymysten lukumäärän.
+        """
         maara = self.database.execute("SELECT COUNT(*) FROM Kysymyksia").fetchone()
         return maara[0]
     def hae_kysymys(self, i: int):
+        """
+        Hakee annetun kysymyksen tiedot.
+        """
         kysymys = self.database.execute("SELECT * FROM Kysymyksia WHERE id=?", [i]).fetchone()
         return kysymys
     def lisaa_kysymys(self, tiedot: tuple):
+        """
+        Lisää annetut tiedot tietokantaan.
+        """
         sqlkomento_yksi = "INSERT INTO Kysymyksia "
         sqlkomento_kaksi = "(kysymys,ekavastaus,ekavoitto,ekatappio,ekatodennakoisyys,"
         sqlkomento_kolme = "tokavastaus,tokavoitto,tokatappio,tokatodennakoisyys,"

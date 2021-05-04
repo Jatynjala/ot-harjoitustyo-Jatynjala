@@ -1,7 +1,16 @@
 from random import choice, randint
 
 class Sovelluslogiikka:
+    """
+    Tällä luokalla toteutetaan sovelluksen sisäinen logiikka.
+    Metodit aseta_voitto, aseta_tappio ja aseta_todennakoisyys
+    palauttavat vastaavasti voiton, tappion ja todennäköisyyden,
+    joita käytetään tapahtuman arpomisessa.
+    """
     def luo_lista(self, lkm: int, maximi: int):
+        """
+        Luo satunnaisen listan kysymyksiä annettujen parametrien mukaan.
+        """
         tulos_lista=[]
         mahdolliset_kysymykset = [numero for numero in range(1, maximi+1)]
         for i in range(0, lkm):
@@ -31,6 +40,9 @@ class Sovelluslogiikka:
         if vastaus == "3":
             return tiedot[13]
     def arvo_tapahtuma(self, voitto: str, tappio: str, todennakoisyys: int):
+        """
+        Arpoo annetun todennäköisyyden perusteella, tapahtuuko voitto vai tappio.
+        """
         sattuma = randint(1, 100)
         if sattuma > todennakoisyys:
             return voitto
