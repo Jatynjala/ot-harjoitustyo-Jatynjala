@@ -17,7 +17,4 @@ Tällä hetkellä sovelluksessa on toteutettu seuraavat toiminnallisuudet:
 * Kysymystä lisätessä käyttäjältä kysytään itse kysymys, kolme vastausta ja jokaiseen vastaukseen voitto, tappio ja voiton todennäköisyys kokonaislukuna suljetulta väliltä 1-100. Tämän jälkeen sovellus lisää kysymyksen tietokantaan.
 * Kysymykseen vastaamisen yhteydessä käyttäjä voi tallentaa pelin, minkä sovellus tekee erilliseen tekstitiedostoon 'pelitallennus.txt', tai lopettaa pelin kesken, jolloin hän palaa aloitusvalikkoon. Huom. lopettamisen yhteydessä peliä ei tallenneta.
 * Jos käyttäjä lataa tallennetun pelin aloitusvalikosta, sovellus lataa tarvittavat tiedot edellä mainitusta tekstitiedostosta ja vie käyttäjän jatkamaan peliä.
-
-### Jatkokehitysideoita
-Sovellukseen saatetaan tulevaisuudessa toteuttaa seuraavat toiminnallisuudet:
-* Alaiset suosittelevat kukin yhtä vaihtoehtoa kysymykseen vastattaessa.
+* Kysymykseen vastaamisen yhteydessä alaiset suosittelevat kukin yhtä vaihtoehtoa kysymykseen vastattaessa.
