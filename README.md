@@ -15,8 +15,9 @@ Soveluksen käynnistys tapahtuu komennolla 'poetry run invoke start', testaus ko
 
 ### Dokumentaatio
 * [Ajankäyttö](https://github.com/Jatynjala/ot-harjoitustyo-Jatynjala/blob/main/Dokumentaatio/Ajankaytto.md)
-* [Vaatimusmäärittely](https://github.com/Jatynjala/ot-harjoitustyo-Jatynjala/blob/main/Dokumentaatio/Vaatimusmaarittely.md)
 * [Arkkitehtuuri](https://github.com/Jatynjala/ot-harjoitustyo-Jatynjala/blob/main/Dokumentaatio/arkkitehtuuri.md)
+* [Vaatimusmäärittely](https://github.com/Jatynjala/ot-harjoitustyo-Jatynjala/blob/main/Dokumentaatio/Vaatimusmaarittely.md)
+* [Käyttöohje](https://github.com/Jatynjala/ot-harjoitustyo-Jatynjala/blob/main/Dokumentaatio/Kayttoohje.md)
 
 ### Viimeisin release
 [Viimeisin release](https://github.com/Jatynjala/ot-harjoitustyo-Jatynjala/releases/tag/viikko5uusi)
