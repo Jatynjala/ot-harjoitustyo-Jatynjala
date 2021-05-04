@@ -11,7 +11,7 @@ Jos aloitusvalikossa antaa komennon 3, tallennettu peli ladataan, ja sovellus si
 ## Pelinäkymä
 Pelinäkymässä käyttäjälle on luotu satunnainen lista kysymyksiä, jonka sovellus käy läpi kysymys kerrallaan. Jokaiseen kysymykseen on kolme vastausta, joista jokainen voi jollakin todennäköisyydellä onnistua tai epäonnistua.
 
-Käyttäjä antaa jonkun syötteistä 'save', 'quit', 1, 2 tai 3. Syöte 'save' tallentaa pelin ja palaa takaisin kysymykseen, kun taas 'quit' keskeyttää pelin ja palaa aloitusvalikkoon. Syöttämällä 1, 2 tai 3 käyttäjä antaa vastaukseksi vastaavan vastauksen, minkä jälkeen soveelus arpoo vastaukseen liityvän todennäköisyyden perusteella, onnistuuko vastaus vai ei.
+Käyttäjä antaa jonkun syötteistä 'save', 'quit', 1, 2 tai 3. Syöte 'save' tallentaa pelin ja palaa takaisin kysymykseen, kun taas 'quit' keskeyttää pelin ja palaa aloitusvalikkoon. Syöttämällä 1, 2 tai 3 käyttäjä antaa vastaukseksi vastaavan vastauksen, minkä jälkeen sovellus arpoo vastaukseen liityvän todennäköisyyden perusteella, onnistuuko vastaus vai ei.
 
 ## Kysymysten lisääminen
 Kun aloitusvalikossa annetaan komento 2, käyttäjältä kysytään ensin itse kysymys ja sitten kolme kertaa vastaus, siihen liittyvä epäonnistumisen todennäkösyys, voitto ja tappio kyseisessä järjestyksessä. Tämän jälkeen tiedot lisätään tietokantaan, ja sovellus palaa aloitusvalikkoon.
