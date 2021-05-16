@@ -20,7 +20,7 @@ Soveluksen käynnistys tapahtuu komennolla 'poetry run invoke start', testaus ko
 * [Käyttöohje](https://github.com/Jatynjala/ot-harjoitustyo-Jatynjala/blob/main/Dokumentaatio/Kayttoohje.md)
 
 ### Viimeisin release
-[Viimeisin release](https://github.com/Jatynjala/ot-harjoitustyo-Jatynjala/releases/tag/viikko5uusi)
+[Viimeisin release](https://github.com/Jatynjala/ot-harjoitustyo-Jatynjala/releases/tag/viikko6)
 
 ### Huom.
 Älä lataa lataa peliä, ennen kuin olet tallentanut pelin vähintään kerran.
